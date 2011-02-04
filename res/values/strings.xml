@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Per Diem</string>
+    <string id="ViewButton" name="ViewButton">View</string>
+	<string id="CreateButton" name="CreateButton">Create</string>
+	<string id="UpdateButton" name="UpdateButton">Update</string>
+	<string id="ExitButton" name="ExitButton">Exit</string>
+</resources>
