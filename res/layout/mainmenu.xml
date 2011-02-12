@@ -29,8 +29,8 @@
             android:layout_width="wrap_content"
             android:layout_gravity="fill_horizontal|center"
             android:layout_alignParentTop="true"
-            android:layout_alignParentRight="true"
-            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@id/menuTitleImage"
+            android:layout_marginLeft="2dp"
             android:shadowColor="@color/menu_glow"
             android:textColor="@android:color/white"></TextView>
     </RelativeLayout>
@@ -39,5 +39,7 @@
         android:id="@+id/main_menu_options_LV"
         android:layout_width="fill_parent"
         android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingTop="10dp"
         android:layout_below="@+id/mainmenu_title_RL"></ListView>
 </RelativeLayout>
