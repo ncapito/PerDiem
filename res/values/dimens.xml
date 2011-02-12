@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="logo_size">44dp</dimen>
+	<dimen name="logo_bottom_size">40dp</dimen>
+	<dimen name="version_size">11dp</dimen>
+	<dimen name="version_spacing">6dp</dimen>
+	<dimen name="screen_title_size">35dp</dimen>
+	<dimen name="menu_item_size">35dp</dimen>
+</resources>

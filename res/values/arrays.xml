@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="menu_items">
+        <item>@string/menu_item_today</item>
+        <item>@string/menu_item_calendar</item>
+        <item>@string/menu_item_settings</item>
+        <item>@string/menu_item_exit</item>
+    </string-array>
+</resources>

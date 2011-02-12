@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Per Diem</string>
-    <string id="ViewButton" name="ViewButton">View</string>
-	<string id="CreateButton" name="CreateButton">Create</string>
-	<string id="UpdateButton" name="UpdateButton">Update</string>
-	<string id="ExitButton" name="ExitButton">Exit</string>
+	<string name="app_name">PerDiem</string>
+	<string name="app_logo_top">PerDiem 0.1</string>
+	<string name="app_logo_bottom">What have you forgotten to expense today?</string>
+	<string name="app_version_info">Version 0.1\nCopyright © 2011 by SmellyDog INC.\nAll Rights Reserved.</string>
+	<string name="main_menu">Main Menu</string>
+	<string name="menu_item_today">Today</string>
+	<string name="menu_item_calendar">Calendar</string>
+	<string name="menu_item_settings">Settings</string>
+	<string name="menu_item_exit">Exit</string>
 </resources>

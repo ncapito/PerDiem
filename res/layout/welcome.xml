@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@android:color/black">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/titleTV"
+		android:text="@string/app_logo_top" android:textColor="@android:color/black"
+		android:layout_gravity="center_vertical|center_horizontal"
+		android:gravity="top|center" android:textSize="@dimen/logo_size"
+		android:textStyle="italic"></TextView>
+	<TableLayout android:id="@+id/mainTLayout"
+		android:stretchColumns="*" android:layout_height="wrap_content"
+		android:layout_width="fill_parent">
+		<TableRow android:id="@+id/logoRow" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:layout_gravity="center_vertical|center_horizontal">
+			<ImageView android:id="@+id/logoIV" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_gravity="center_vertical|center_horizontal"
+				android:src="@drawable/welcomegraphic"></ImageView>
+		</TableRow>
+	</TableLayout>
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/bottomTV"
+		android:text="@string/app_logo_bottom" android:textColor="@android:color/white"
+		android:gravity="center" android:textSize="@dimen/logo_bottom_size"></TextView>
+	<TextView android:id="@+id/bottomVersionTV" android:text="@string/app_version_info"
+		android:textSize="@dimen/version_size" android:textColor="@android:color/black"
+		android:background="@android:color/white" android:layout_height="fill_parent"
+		android:lineSpacingExtra="@dimen/version_spacing"
+		android:layout_width="fill_parent" android:layout_gravity="center_vertical|center_horizontal"
+		android:gravity="center"></TextView>
+</LinearLayout>
